@@ -1,0 +1,95 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# R
+renv/
+.Rhistory
+.RuserData
+.Rprofile
+*.Rproj
+
+# Configuração local, IDEs e sistema
+.idea/
+.vscode/
+.agents/
+.codex/
+.aws/
+.DS_Store
+Thumbs.db
+commands.txt
+
+# Credenciais e chaves de assinatura
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+key.properties
+
+# Este repositório publica código e documentação. Os dados ficam no computador.
+/Data/
+/exports/
+/front_end/assets/*
+!/front_end/assets/*.svg
+!/front_end/assets/*.png
+
+# Dados geográficos e arquivos auxiliares de shapefile
+*.geojson
+*.geojson.gz
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qix
+*.sbn
+*.sbx
+*.shp.xml
+*.gpkg
+*.gdb/
+*.kml
+*.kmz
+*.tif
+*.tiff
+*.mbtiles
+*.pbf
+
+# Bancos, exportações e dados de pesquisa
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db
+*.db-*
+*.RData
+*.rdata
+*.rds
+*.Rds
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.parquet
+*.feather
+/Data_wheat_joao-25env.txt
+/Rplots.pdf
+
+# Builds, instaladores e caches
+build/
+.dart_tool/
+.gradle/
+node_modules/
+*.apk
+*.apk.sha1
+*.apk.sha256
+*.aab
+*.ipa
+*.log
+coverage/

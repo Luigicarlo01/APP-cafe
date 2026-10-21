@@ -1,0 +1,6 @@
+renv.lock
+Data/
+front_end/
+App/
+venv/
+External Libraries/

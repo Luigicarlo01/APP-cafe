@@ -1,0 +1,8 @@
+flask
+requests
+python-dotenv
+flask-cors
+geopandas
+shapely
+flask-compress
+waitress
